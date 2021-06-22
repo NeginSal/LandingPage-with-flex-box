@@ -25,6 +25,10 @@ a{
     background: #333;
     color: white;
 }
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
 .text-primary{
     color: orange;
 }
@@ -34,6 +38,9 @@ a{
 .bold{
     font-size: 1.3rem;
     font-weight: bold;
+}
+.text-center{
+    text-align: center;
 }
 .btn{
     color: white;
@@ -61,6 +68,15 @@ a{
     padding: 2rem;
 }
 .p-3{
+    padding: 3rem;
+}
+.py-1{
+    padding: 1.25rem 0;
+}
+.py-2{
+    padding: 2rem;
+}
+.py-3{
     padding: 3rem;
 }
 
@@ -105,5 +121,19 @@ a{
     align-items: center;
     height: 100%;
     color:white;
+}
+#section1 .items{
+    display: flex;
+    padding: 1rem;
+}
+#section1 .items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+#section1 .items .item i{
+    background: orangered;
+    padding: 1.25rem;
+    border-radius: 50%;
 
 }
