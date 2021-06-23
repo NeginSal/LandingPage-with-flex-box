@@ -166,3 +166,18 @@ a{
 }
 /**End Section2/
 
+/*Section Three*/
+#section3 .items{
+    display: flex;
+}
+#section3 .items div{
+    flex: 1;
+}
+#section3 .items img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+/*End Section Three*/
+
