@@ -199,7 +199,13 @@ a{
 {
     width: 100%;
     padding: 0.5rem;
-
 }
 /*End Contact*/
+/*Footer*/
+#main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*End Footer*/
 
